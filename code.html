@@ -1,0 +1,29 @@
+<style> 
+    div#SubNavTitle{font-size:30px}
+    div.SubNavItem{font-size:20px}
+</style>
+
+<div class="text-plugin clearfix" style="font-family:'{{ font }}'">
+    <div id="SubNavTitle"><a href="{{ TitleURL }}"> {{ TitleText }} </a></div>
+    {% if item1Image %}
+    <div class="SubNavItem"><img src="{{ item1Image }}" width="10" height="10" style="margin-bottom:4px;width:10px;height:10px;" /> <a href="{{ item1URL }}">{{ item1Text }}</a></div>
+    {% endif %}
+    {% if item2Image %}
+    <div class="SubNavItem"><img src="{{ item2Image }}" width="10" height="10" style="margin-bottom:4px;width:10px;height:10px;" /> <a href="{{ item2URL }}">{{ item2Text }}</a></div>
+    {% endif %}
+    {% if item3Image %}
+    <div class="SubNavItem"><img src="{{ item3Image }}" width="10" height="10" style="margin-bottom:4px;width:10px;height:10px;" /> <a href="{{ item3URL }}">{{ item3Text }}</a></div>
+    {% endif %}
+    {% if item4Image %}
+    <div class="SubNavItem"><img src="{{ item4Image }}" width="10" height="10" style="margin-bottom:4px;width:10px;height:10px;" /> <a href="{{ item4URL }}">{{ item4Text }}</a></div>
+    {% endif %}
+    {% if item5Image %}
+    <div class="SubNavItem"><img src="{{ item5Image }}" width="10" height="10" style="margin-bottom:4px;width:10px;height:10px;" /> <a href="{{ item5URL }}">{{ item5Text }}</a></div>
+    {% endif %}
+    {% if item6Image %}
+    <div class="SubNavItem"><img src="{{ item6Image }}" width="10" height="10" style="margin-bottom:4px;width:10px;height:10px;" /> <a href="{{ item6URL }}">{{ item6Text }}</a></div>
+    {% endif %}
+    {% if item7Image %}
+    <div class="SubNavItem"><img src="{{ item7Image }}" width="10" height="10" style="margin-bottom:4px;width:10px;height:10px;" /> <a href="{{ item7URL }}">{{ item7Text }}</a></div>
+    {% endif %}
+  </div>
